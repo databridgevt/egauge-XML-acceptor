@@ -1,0 +1,18 @@
+{
+  "name": "eguage",
+  "version": "1.0.0",
+  "description": "eguage pull server. Data to be passed through and pushed to s3 bucket",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonathanbriganti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "^1.1.0",
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "xml-js": "^1.6.11"
+  }
+}
